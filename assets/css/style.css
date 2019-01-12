@@ -1,0 +1,75 @@
+html, body{
+    height:100%;
+    color: white;
+  }
+
+
+body{
+  background-image: url("../images/JSbackground.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.appFrame{
+    margin:2.5% auto;
+    background:transparent;
+    width:960px;
+    height: 75%;
+    box-sizing: border-box;
+  }
+
+  button{
+    color: white;
+    display:block;
+    width:50%;
+    height:20%;
+    margin-left: 25%;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;
+    border-bottom: solid 2px red;   
+  }
+
+  #start {
+    color: white;
+    display:block;
+    width:50%;
+    height:20%;
+    margin-top: 70%;
+    margin-left: 23%;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;
+  }
+
+  button:hover {
+    border:2px solid white;
+    background: red;
+  }
+
+  #question{
+    position: relative;
+  }
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: white;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  
